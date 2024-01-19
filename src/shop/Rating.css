@@ -1,0 +1,25 @@
+/* Add your custom styles here */
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ddd; /* Unfilled star color */
+  transition: color 0.3s; /* Add smooth transition */
+}
+
+.star:hover {
+  color: #ffc107; /* Hovered star color */
+}
+
+.star.filled {
+  color: #ffc107; /* Filled star color */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #6c757d; /* Muted text color */
+}
+
+/* Add more styling as needed */
